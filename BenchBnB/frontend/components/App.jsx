@@ -7,7 +7,7 @@ const App = () => (
   <div>
     <header>
       <h1>Bench BnB</h1>
-      <Route exact path ="/" component={GreetingContainer} />
+      <GreetingContainer />
     </header>
 
     <Route path="/login" component={SessionFormContainer} />
